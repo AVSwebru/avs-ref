@@ -1,0 +1,27 @@
+.payment-item {
+  padding: 50px 50px 60px;
+  box-shadow: 8px 13px 38px rgba(229, 197, 171, 0.35);
+  background-color: #fff2e2;
+  text-align: center;
+}
+
+.payment-item__icon {
+  margin-bottom: 35px;
+  fill:#a14cc9;
+}
+
+.payment-item__title {
+  margin: 0 0 15px 0;
+  color: #222;
+  font-size: 20px;
+  font-weight: 700;
+  @media (min-width: $breakpoint-small) {
+    font-size: 24px;
+  }
+}
+
+.payment-item__desc {
+  color: #222;
+  font-size: 15px;
+  font-weight: 400;
+}

@@ -1,0 +1,16 @@
+.btn {
+  @include reset-btn;
+  @include reset-link;
+  display: inline-block;
+  min-width: 250px;
+  box-sizing: border-box;
+  padding: 20px;
+  text-align: center;
+  border-radius: 26px;
+  box-shadow: 3px 4px 12px rgba(166, 78, 207, 0.35);
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1.4px;
+}

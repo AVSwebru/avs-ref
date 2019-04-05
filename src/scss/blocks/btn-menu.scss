@@ -1,0 +1,34 @@
+.btn-menu {
+  @include reset-btn;
+  position: relative;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  &.opened {
+    .btn-menu__open {
+      display: none;
+    }
+    .btn-menu__close {
+      display: block;
+    }
+  }
+  @media (min-width: $breakpoint-small) {
+    display: none;
+  }
+}
+
+.btn-menu__open {
+  width: 30px;
+  height: 30px;
+  fill: #000;
+}
+
+.btn-menu__close {
+  display: none;
+  width: 30px;
+  height: 30px;
+  fill: #000;
+}

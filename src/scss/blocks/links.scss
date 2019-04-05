@@ -1,0 +1,18 @@
+.links {
+  padding: 60px 0 120px;
+  @media (min-width: $breakpoint-small) {
+    padding: 105px 0 110px;
+  }
+}
+
+.links__section-title {
+  margin-bottom: 80px;
+}
+
+.links__list {
+  @include reset-list;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px,360px));
+  grid-gap: 30px;
+  justify-content: center;
+}

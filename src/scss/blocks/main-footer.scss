@@ -1,0 +1,29 @@
+.main-footer {
+  padding: 35px 0 60px;
+  background-color: #f8e4cd;
+  @media (min-width: $breakpoint-small) {
+    padding: 75px 0 110px;
+  }
+}
+
+.main-footer__inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  @media (min-width: $breakpoint-small) {
+    flex-direction: row;
+  }
+}
+
+.main-footer__policy {
+  margin-bottom: 20px;
+}
+
+.main-footer__link {
+  display: block;
+  color: #827a71;
+  font-size: 15px;
+  &:not(:last-child) {
+    margin-bottom: 15px;
+  }
+}

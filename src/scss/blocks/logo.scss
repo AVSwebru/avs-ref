@@ -1,0 +1,8 @@
+.logo__img {
+  width: 120px;
+  height: 50px;
+  fill: #fff;
+  @media (min-width: $breakpoint-small) {
+    width: 150px;
+  }
+}

@@ -1,0 +1,78 @@
+.intro {
+  background: #dcdcdc url(../img/bg-intro.jpg) 50% 50% no-repeat;
+  background-size: cover;
+}
+
+.intro__inner {
+  position: relative;
+  min-height: 500px;
+  box-sizing: border-box;
+  @media (min-width: $breakpoint-small) {
+    min-height: 600px;
+  }
+  @media (min-width: $breakpoint-medium) {
+    min-height: 810px;
+  }
+}
+
+.intro__content {
+  position: absolute;
+  top: 67%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  text-align: center;
+  @media (min-width: $breakpoint-small) {
+    top: 70%;
+  }
+  @media (min-width: $breakpoint-medium) {
+    top: 60%;
+  }
+}
+
+.intro__title {
+  margin: 0 0 10px 0;
+  color: #222;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 1;
+  @media (min-width: $breakpoint-small) {
+    margin: 0 0 25px 0;
+    font-size: 72px;
+  }
+}
+
+.intro__offer {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  @media (min-width: $breakpoint-small) {
+    flex-direction: row;
+    width: 355px;
+  }
+}
+
+.intro__offer-text {
+  margin-bottom: 10px;
+  color: #222;
+  font-size: 16px;
+  font-weight: 700;
+  @media (min-width: $breakpoint-small) {
+    width: auto;
+    margin-right: 15px;
+    margin-bottom: 0;
+    font-size: 18px;
+  }
+}
+
+.intro__offer-percent {
+  background-image: linear-gradient(to top, #a14cc9 0%, #b654cb 100%);
+  background-clip: text;
+  color: transparent;
+  font-size: 80px;
+  font-weight: 700;
+  @media (min-width: $breakpoint-small) {
+    font-size: 100px;
+  }
+}

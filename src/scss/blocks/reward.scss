@@ -1,0 +1,49 @@
+.reward {
+  position: relative;
+  padding: 75px 0 65px;
+}
+
+.reward__section-title {
+  margin-bottom: 45px;
+  @media (min-width: $breakpoint-small) {
+    margin-bottom: 70px;
+  }
+}
+
+.reward__bg-1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 50%;
+  height: 100%;
+  background: url('../img/bg-reward-dev.jpg') 50% 50% no-repeat;
+  background-size: cover;
+}
+
+.reward__bg-2 {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  z-index: 1;
+  width: 50%;
+  height: 100%;
+  background: url('../img/bg-reward-promo.jpg') 50% 50% no-repeat;
+  background-size: cover;
+}
+
+.reward__content {
+  position: relative;
+  z-index: 2;
+}
+
+.reward__items {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 -20px;
+  @media (min-width: $breakpoint-medium) {
+    max-width: 620px;
+    margin: 0 auto;
+  }
+
+}

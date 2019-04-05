@@ -1,0 +1,35 @@
+.promo {
+  padding: 60px 0 120px;
+  background: #f9f4f0 url(../img/bg-promo.jpg) 50% 50% no-repeat;
+  background-size: cover;
+  text-align: center;
+  @media (min-width: $breakpoint-small) {
+    padding: 100px 0 120px;
+  }
+  @media (min-width: $breakpoint-medium) {
+    padding: 100px 0 380px;
+  }
+}
+
+.promo__section-title {
+  margin-bottom: 20px;
+}
+
+.promo__desc {
+  margin-bottom: 40px;
+  color: #222;
+  font-size: 16px;
+  font-weight: 700;
+  @media (min-width: $breakpoint-small) {
+    font-size: 24px;
+  }
+}
+
+.promo__btn {
+  background-image: linear-gradient(to top, #a14cc9 0%, #b654cb 100%);
+  color: #fff;
+  &:hover {
+    color: #fff;
+    background-image: linear-gradient(to top, #8735ae 0%, #ab54cb 100%);
+  }
+}

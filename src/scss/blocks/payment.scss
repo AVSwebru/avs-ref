@@ -1,0 +1,19 @@
+.payment {
+  padding: 60px 0 120px;
+  background-color: #f8e4cd;
+  @media (min-width: $breakpoint-small) {
+    padding: 120px 0 115px;
+  }
+}
+
+.payment__section-title {
+  margin-bottom: 55px;
+}
+
+.payment__list {
+  @include reset-list;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 360px));
+  grid-gap: 30px;
+  justify-content: center;
+}

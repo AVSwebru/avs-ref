@@ -1,0 +1,12 @@
+.register {
+  padding: 120px 0 115px;
+  background: url(../img/bg-register.jpg) 50% 50% no-repeat;
+  background-size: cover;
+}
+
+.register__section-title {
+  margin-bottom: 50px;
+  @media (min-width: $breakpoint-small) {
+    margin-bottom: 100px;
+  }
+}

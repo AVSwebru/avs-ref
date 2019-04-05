@@ -1,0 +1,36 @@
+.materials {
+  text-align: center;
+  padding: 60px 0 120px;
+  @media (min-width: $breakpoint-small) {
+    padding: 95px 0 160px;
+  }
+}
+
+.materials__section-title {
+  margin-bottom: 15px;
+}
+
+.materials__desc {
+  margin-bottom: 45px;
+}
+
+.materials__images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  position: relative;
+  margin-bottom: 45px;
+  min-height: 450px;
+  @media (min-width: $breakpoint-medium) {
+    display: block;
+  }
+}
+
+.materials__btn {
+  background: linear-gradient(to top, #a14cc9 0%, #b654cb 100%);
+  color: #fff;
+  &:hover {
+    background: linear-gradient(to top, #8735ae 0%, #ab54cb 100%);
+    color: #fff;
+  }
+}

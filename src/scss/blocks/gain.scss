@@ -1,0 +1,96 @@
+.gain {
+  padding: 60px 0 120px;
+  text-align: center;
+  @media (min-width: $breakpoint-small) {
+    padding: 60px 0 160px;
+  }
+}
+
+.gain__section-title {
+  margin-bottom: 25px;
+  @media (min-width: $breakpoint-small) {
+    margin-bottom: 75px;
+  }
+}
+
+.gain__services {
+  @include reset-list;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 -20px 55px;
+  @media (min-width: $breakpoint-small) {
+    flex-direction: row;
+    margin: 0 -20px 100px;
+  }
+  @media (min-width: $breakpoint-medium) {
+    margin: 0 -55px 100px;
+  }
+}
+
+.gain__services-item {
+  margin-bottom: 20px;
+  &.uk-active .gain__services__link {
+    color: #222;
+    &::before {
+      background: #000;
+    }
+  }
+  @media (min-width: $breakpoint-small) {
+    margin: 0 20px;
+  }
+  @media (min-width: $breakpoint-medium) {
+    margin: 0 55px;
+  }
+}
+
+.gain__services__link {
+  @include reset-link;
+  position: relative;
+  white-space: nowrap;
+  color: #a9a9a9;
+  font-size: 18px;
+  font-weight: 700;
+  &::before {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    width: 100%;
+    height: 3px;
+    background-color: #a9a9a9;
+  }
+  &:hover {
+    color: #a9a9a9;
+  }
+}
+
+.gain__sum {
+  white-space: nowrap;
+  color: #a05dc3;
+  font-size: 60px;
+  font-weight: 700;  
+  @media (min-width: $breakpoint-small) {
+    font-size: 100px;
+  }
+  @media (min-width: $breakpoint-medium) {
+    font-size: 160px;
+  }
+}
+
+.gain__sum-variants {
+  margin-bottom: 75px;
+  text-align: center;
+  @media (min-width: $breakpoint-small) {
+    margin-bottom: 100px;
+  }
+}
+
+.gain__btn {
+  color: #fff;
+  background: #222;
+  &:hover {
+    color: #fff;
+    background: linear-gradient(to top, #8735ae 0%, #ab54cb 100%);
+  }
+}
