@@ -1,14 +1,11 @@
 .nav-main {
-  display: none;
   position: absolute;
   top: -25px;
   left: 0;
+  display: flex;
   width: calc(100vw - 30px);
   padding: 100px 15px;
   background-color: #f8e4cd;
-  &.opened {
-    display: flex;
-  }
   @media (min-width: $breakpoint-small) {
     position: static;
     display: block;
@@ -41,9 +38,6 @@
   }
   @media (min-width: $breakpoint-medium) {
     margin: 0 20px;
-    &:last-of-type {
-      margin: 0;
-    }
   }
 }
 

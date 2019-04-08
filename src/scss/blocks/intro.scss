@@ -68,6 +68,7 @@
 
 .intro__offer-percent {
   background-image: linear-gradient(to top, #a14cc9 0%, #b654cb 100%);
+  -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
   font-size: 80px;
